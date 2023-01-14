@@ -1,0 +1,37 @@
+/* Font Work Sans */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+/* --------------
+Header Section Navigation 
+----------------------*/
+
+header{
+    background-color: #ffc5ae;
+    border-color: #ffc5ae;
+}
+.logo{
+    padding-left: 247px;
+    font-size: 45px;
+    font-weight: 700px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    padding-right: 100px;
+    
+}
+ul li{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    list-style: none;
+}
