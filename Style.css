@@ -7,12 +7,14 @@ Header Section Navigation
 
 header{
     background-color: #ffc5ae;
+    width: 100%;
     border: none;
     margin-bottom: 80px;
     
 }
 .logo{
-    padding-left: 247px;
+ padding-left: 247px; 
+    /* padding-left: 30%; */
     font-size: 45px;
     font-weight: 700px;
     font-family: 'Work Sans', sans-serif;
@@ -230,6 +232,9 @@ Section 2 title and sub-title
 /* 
 Facts 
 */
+.facts-head{
+    margin-bottom: 100px;margin-left: 50px;
+}
 
 .fact-title{
     font-family:'Work Sans', sans-serif ;
@@ -251,11 +256,124 @@ Facts
     margin-right: 50px;
 }
 
+.icon-number{
+    font-size: 45px;
+    font-weight: 500;
+    font-family:'Work Sans', sans-serif ;
+    margin-top: 30px;
+    
+    text-align: center;
 
+}
+.icon-text{
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Work Sans', sans-serif ;
+    color: #727272;
+    margin-top: 20px;
+    text-align: center;
+}
 .iconbox-element{
     width: 242px;
     height: 242px;
+    margin-left: 70px;
+    margin-right: 40px;
     border-color: #FF900E;
     border-style: double;
     border-radius: 10px;
+    
+}
+.iconbox-element img{
+    margin-left: 89px;
+    margin-top: 40px;
+}
+
+/* 
+Footer--
+*/
+.footer-title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family:'Work Sans', sans-serif ;
+    margin-left: 500px;
+    margin-top: 60px;
+}
+
+.footer-sub-title{
+    width: 542px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Work Sans', sans-serif ;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 70px;
+
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.finished{
+    width: 620px;
+    height: 53px;
+    background-color: #FFF4E7;
+    margin-top: 40px;
+    margin-left: 330px;
+    align-items: center;
+}
+.footer-text{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Work Sans', sans-serif ;
+    color: #424242;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+/* -------------
+        bonus Section
+--------------*/
+
+.bonus-title{
+    font-size: 45px;
+    font-weight: 700;
+    font-family:'Work Sans', sans-serif ;
+    margin-left: 530px;
+    margin-top: 60px;
+}
+
+.bonus-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Work Sans', sans-serif ;
+    width: 542px;
+    height: 52px;
+    text-align: center;
+    margin-left: 390px;
+}
+.bonus-image img{
+    width: 300px;
+    height: 200px;
+    border-radius: 6px;
+}
+.bonus-image{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* 
+Tried To do Responsive
+*/
+
+@media only screen and (max-width:576px){
+    .header{
+        width: 100%;
+    }
+    nav{
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
