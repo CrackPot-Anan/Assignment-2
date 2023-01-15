@@ -7,7 +7,9 @@ Header Section Navigation
 
 header{
     background-color: #ffc5ae;
-    border-color: #ffc5ae;
+    border: none;
+    margin-bottom: 80px;
+    
 }
 .logo{
     padding-left: 247px;
@@ -20,6 +22,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: none;
+    margin: 0;
 }
 
 .nav-list ul{
@@ -34,4 +38,224 @@ ul li{
     font-size: 18px;
     font-weight: 500;
     list-style: none;
+}
+
+/* ------------
+Section 2 title and sub-title
+ -----------*/
+.header-title{
+    width: 862px;
+    height: 577px;
+    margin-bottom: -100px;
+    
+}
+
+ .header-title .title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 329px;
+    top: 102px;
+
+ }
+ .header-title .sub-title{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #727272;
+    position: absolute;
+    width: 862px;
+    height: 225px;
+    left: 329px;
+    top: 310px;
+ }
+.primary-btn{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 600px;
+    color: white;
+    width: 184px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    width: 180px;
+    height: 64px;
+    left: 650px;
+    top: 463px;
+}
+.image img{
+    margin-left: 150px;
+    margin-bottom: 40px;
+    width: 1200px;
+    height: 600px;
+}
+
+/* 
+ Main Section    
+*/
+.team-images img{
+    width: 342px;
+    height: 342px;
+}
+.team-images{
+    display: grid;
+    grid-template-columns: repeat(2, .2fr);
+    gap: 24px;
+    margin-left: 100px;
+}
+.features-header{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    width: 468px;
+    height: 106px;
+    margin-bottom: 60px;
+}
+.features-text{
+    width: 490px;
+    height: 78px;
+    color: #727272;
+    margin-bottom: 150px;
+}
+.team-details{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.ash{
+    color:#727272 ;
+}
+.black{
+    color: #131313;
+}
+.orange{
+    color: #FF900E;
+}
+.secondary-button{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 600px;
+    color: white;
+    width: 184px;
+    height: 64px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+}
+
+/* 
+
+*/
+.enjoy{
+    width: 1000px;
+    height: 900px;
+    margin-left: 100px;
+}
+.love-enjoy{
+    width: 1000px;
+    height: 900px;
+}
+
+
+
+.enjoy-title{
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+}
+.perks{
+    padding-top: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight:600;
+    font-family:'Work Sans', sans-serif;
+}
+.perks-text{
+    font-size: 16px;
+    font-weight:400;
+    font-family:'Work Sans', sans-serif;
+    color: #727272;
+    width: 514px;
+    height: 78px;
+    
+    margin-left: 20px;
+
+}
+.option{
+    width: 586px;
+    height: 171px;
+    background-color: #ea9e9e;
+    box-shadow: inset;
+    border-radius: 10px;
+}
+.enjoy{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.enjoy-subtitle{
+    width: 586px;
+    height: 76px;
+}
+.votka-button{
+    margin-left: 700px;
+
+}
+.faul-button{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px ;
+    font-weight: 600px;
+    color: white;
+    width: 342px;
+    height: 200px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 6px;
+}
+.btn-text{
+    font-size: 65px;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* 
+Facts 
+*/
+
+.fact-title{
+    font-family:'Work Sans', sans-serif ;
+    font-size: 45px;
+    font-weight: 700;
+}
+.fact-details{
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Work Sans', sans-serif ;
+    width: 542px;
+    height: 52px;
+    color: #727272;
+}
+.Icon-box{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.iconbox-element{
+    width: 242px;
+    height: 242px;
+    border-color: #FF900E;
+    border-style: double;
+    border-radius: 10px;
 }
