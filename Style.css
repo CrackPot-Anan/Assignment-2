@@ -123,6 +123,9 @@ Section 2 title and sub-title
 .features-text{
     width: 490px;
     height: 78px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
     color: #727272;
     margin-bottom: 150px;
 }
@@ -207,6 +210,10 @@ Section 2 title and sub-title
 .enjoy-subtitle{
     width: 586px;
     height: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans', sans-serif;
+    color: #727272;
 }
 .votka-button{
     margin-left: 700px;
@@ -327,7 +334,7 @@ Footer--
     height: 53px;
     background-color: #FFF4E7;
     margin-top: 40px;
-    margin-left: 330px;
+    margin-left: 390px;
     align-items: center;
 }
 .footer-text{
