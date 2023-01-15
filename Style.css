@@ -249,11 +249,13 @@ Facts
     height: 52px;
     color: #727272;
 }
+
 .Icon-box{
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
     margin-right: 50px;
+   
 }
 
 .icon-number{
@@ -273,6 +275,9 @@ Facts
     margin-top: 20px;
     text-align: center;
 }
+.iconbox-element:hover{
+    transform: rotate(360deg);
+}
 .iconbox-element{
     width: 242px;
     height: 242px;
@@ -281,6 +286,7 @@ Facts
     border-color: #FF900E;
     border-style: double;
     border-radius: 10px;
+    transition: width 3s,height 3s,transform 3s;
     
 }
 .iconbox-element img{
